@@ -32,7 +32,7 @@
   height: auto; /* Maintain aspect ratio */
 }
 
-@media (min-width: 900px) {
+@media (width >= 900px) {
   .aicolumns-p090xj-box-id-952722972 > div {
     gap: 24px; /* Add gap between text and image sections */
   }
