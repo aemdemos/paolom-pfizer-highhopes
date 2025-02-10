@@ -1,0 +1,39 @@
+
+.aicolumns-p090xj-box-id-952722972 {
+  background-color: #FFD700; /* Apply yellow background to the entire block */
+}
+
+.aicolumns-p090xj-box-id-952722972 > div {
+  display: flex; /* Ensure the main div is a flex container */
+  flex-direction: row; /* Arrange child elements side by side */
+  align-items: center; /* Align items vertically centered */
+  justify-content: space-between; /* Distribute space evenly between child elements */
+}
+
+.aicolumns-p090xj-box-id-952722972 > div > div:first-child {
+  flex: 1; /* Ensure the text section takes equal space */
+  padding: 20px; /* Add padding to the text section if needed */
+  display: flex;
+  flex-direction: row; /* Ensure text elements inside are side by side */
+  justify-content: center; /* Center text horizontally */
+  align-items: center; /* Center text vertically */
+}
+
+.aicolumns-p090xj-box-id-952722972 > div > .aicolumns-p090xj-box-id-952722972-img-col {
+  flex: 1; /* Ensure the image section takes equal space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aicolumns-p090xj-box-id-952722972 img {
+  width: auto; /* Ensure image does not stretch */
+  max-width: 100%; /* Ensure image fits within its container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+@media (min-width: 900px) {
+  .aicolumns-p090xj-box-id-952722972 > div {
+    gap: 24px; /* Add gap between text and image sections */
+  }
+}
